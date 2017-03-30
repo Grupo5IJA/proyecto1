@@ -1,0 +1,72 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="A8F30A98-E417-C2D5-25F7-FF1FAF962D4E" name="Vehiculo">
+<createdBy>7fprog02</createdBy>
+<createdTime>2017-03-29 17:32:11 UTC</createdTime>
+<ownerDesignName>proyectoija.v2</ownerDesignName>
+<engineerTo>
+<item key="98590784-3D23-B2BB-8B87-52C6D9EA195F" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="matricula_vehiculo" id="EDE59239-7EE9-A2F9-B400-D87269FCD358">
+<createdBy>7fprog02</createdBy>
+<createdTime>2017-03-29 17:32:19 UTC</createdTime>
+<ownerDesignName>proyectoija.v2</ownerDesignName>
+<engineerTo>
+<item key="98590784-3D23-B2BB-8B87-52C6D9EA195F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>9</dataTypeSize>
+<ownDataTypeParameters>9,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="marca_vehiculo" id="E55E8520-3B5F-63EC-CD85-8AA43FBBB8BA">
+<createdBy>7fprog02</createdBy>
+<createdTime>2017-03-29 17:32:18 UTC</createdTime>
+<ownerDesignName>proyectoija.v2</ownerDesignName>
+<engineerTo>
+<item key="98590784-3D23-B2BB-8B87-52C6D9EA195F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40</dataTypeSize>
+<ownDataTypeParameters>40,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="modelo_vehiculo" id="BEAFC186-513A-7FCF-778C-953556DDC118">
+<createdBy>7fprog02</createdBy>
+<createdTime>2017-03-29 17:32:18 UTC</createdTime>
+<ownerDesignName>proyectoija.v2</ownerDesignName>
+<engineerTo>
+<item key="98590784-3D23-B2BB-8B87-52C6D9EA195F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40</dataTypeSize>
+<ownDataTypeParameters>40,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="3ECE0FAE-D40A-07A0-811C-F7607131AA1C" name="Vehiculo PK">
+<createdBy>7fprog02</createdBy>
+<createdTime>2017-03-29 17:32:35 UTC</createdTime>
+<ownerDesignName>proyectoija.v2</ownerDesignName>
+<engineerTo>
+<item key="98590784-3D23-B2BB-8B87-52C6D9EA195F" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>EDE59239-7EE9-A2F9-B400-D87269FCD358</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

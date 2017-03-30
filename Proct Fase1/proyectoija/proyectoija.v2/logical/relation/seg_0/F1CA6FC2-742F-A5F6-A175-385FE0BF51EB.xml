@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="via_vehi" directorySegmentName="seg_0" id="F1CA6FC2-742F-A5F6-A175-385FE0BF51EB">
+<createdBy>msimm</createdBy>
+<createdTime>2017-03-29 20:29:47 UTC</createdTime>
+<ownerDesignName>proyectoija.v2</ownerDesignName>
+<engineerTo>
+<item key="98590784-3D23-B2BB-8B87-52C6D9EA195F" value="true"/>
+</engineerTo>
+<sourcePk>3ECE0FAE-D40A-07A0-811C-F7607131AA1C</sourcePk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>A8F30A98-E417-C2D5-25F7-FF1FAF962D4E</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>34265004-8B02-44C9-39E8-E715C6F8521F</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

@@ -1,0 +1,185 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="34265004-8B02-44C9-39E8-E715C6F8521F" name="Viaje">
+<createdBy>7fprog02</createdBy>
+<createdTime>2017-03-29 17:35:39 UTC</createdTime>
+<ownerDesignName>proyectoija.v2</ownerDesignName>
+<engineerTo>
+<item key="98590784-3D23-B2BB-8B87-52C6D9EA195F" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="codigo_viaje" id="32EDF8E0-8796-26C4-D567-068ADC59FEAA">
+<createdBy>msimm</createdBy>
+<createdTime>2017-03-29 20:35:36 UTC</createdTime>
+<ownerDesignName>proyectoija.v2</ownerDesignName>
+<engineerTo>
+<item key="98590784-3D23-B2BB-8B87-52C6D9EA195F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>4</dataTypeSize>
+<ownDataTypeParameters>4,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="hora_inicio_viaje" id="E45F89A8-D197-1B9C-9FEF-C7A4B570C8DE">
+<createdBy>7fprog02</createdBy>
+<createdTime>2017-03-29 17:35:44 UTC</createdTime>
+<ownerDesignName>proyectoija.v2</ownerDesignName>
+<engineerTo>
+<item key="98590784-3D23-B2BB-8B87-52C6D9EA195F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="hora_fin_viaje" id="F7D1DA09-5CA2-45F2-F09F-0BC7554240C5">
+<createdBy>7fprog02</createdBy>
+<createdTime>2017-03-29 17:35:44 UTC</createdTime>
+<ownerDesignName>proyectoija.v2</ownerDesignName>
+<engineerTo>
+<item key="98590784-3D23-B2BB-8B87-52C6D9EA195F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="km_inicio_viaje" id="E5915743-54FE-776C-41F4-0317501A6473">
+<createdBy>7fprog02</createdBy>
+<createdTime>2017-03-29 17:35:44 UTC</createdTime>
+<ownerDesignName>proyectoija.v2</ownerDesignName>
+<engineerTo>
+<item key="98590784-3D23-B2BB-8B87-52C6D9EA195F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="km_fin_viaje" id="991ADAAF-3214-A45D-C047-E3DBAD20294D">
+<createdBy>7fprog02</createdBy>
+<createdTime>2017-03-29 17:35:44 UTC</createdTime>
+<ownerDesignName>proyectoija.v2</ownerDesignName>
+<engineerTo>
+<item key="98590784-3D23-B2BB-8B87-52C6D9EA195F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="gastos_gasolina__viaje" id="02F8807F-62DB-AC45-2EC6-559881489FFF">
+<createdBy>7fprog02</createdBy>
+<createdTime>2017-03-29 17:36:23 UTC</createdTime>
+<ownerDesignName>proyectoija.v2</ownerDesignName>
+<engineerTo>
+<item key="98590784-3D23-B2BB-8B87-52C6D9EA195F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT020</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,6,2</ownDataTypeParameters>
+</Attribute>
+<Attribute name="gastos_autopistas_viaje" id="A796DCDB-A395-9639-3745-A857337153FD">
+<createdBy>7fprog02</createdBy>
+<createdTime>2017-03-29 17:36:32 UTC</createdTime>
+<ownerDesignName>proyectoija.v2</ownerDesignName>
+<engineerTo>
+<item key="98590784-3D23-B2BB-8B87-52C6D9EA195F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT020</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,6,2</ownDataTypeParameters>
+</Attribute>
+<Attribute name="gastos_dietas_viaje" id="AFEEF9D8-4464-AEDE-5E73-6C1E951B92CF">
+<createdBy>7fprog02</createdBy>
+<createdTime>2017-03-29 17:36:40 UTC</createdTime>
+<ownerDesignName>proyectoija.v2</ownerDesignName>
+<engineerTo>
+<item key="98590784-3D23-B2BB-8B87-52C6D9EA195F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT020</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,6,2</ownDataTypeParameters>
+</Attribute>
+<Attribute name="gastos_viaje" id="01E82F7B-ED27-009A-9A52-281A0FDB0AF5">
+<createdBy>7fprog02</createdBy>
+<createdTime>2017-03-29 17:36:49 UTC</createdTime>
+<ownerDesignName>proyectoija.v2</ownerDesignName>
+<engineerTo>
+<item key="98590784-3D23-B2BB-8B87-52C6D9EA195F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT020</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,6,2</ownDataTypeParameters>
+</Attribute>
+<Attribute name="codigo_parte" id="3B666A5D-DB29-5A03-F729-6FF128AB3435">
+<createdBy>msimm</createdBy>
+<createdTime>2017-03-29 20:22:14 UTC</createdTime>
+<generatorID>0A950CA0-00F9-312A-B706-267C6AF6DA77</generatorID>
+<ownerDesignName>proyectoija.v2</ownerDesignName>
+<engineerTo>
+<item key="98590784-3D23-B2BB-8B87-52C6D9EA195F" value="true"/>
+</engineerTo>
+<referedAttribute>CA8A359F-929F-61E0-2C55-C4F0F130F927</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>4</dataTypeSize>
+<ownDataTypeParameters>4,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="matricula_vehiculo1" id="17CF3AB9-AAA1-CF5E-54F3-A9373F7A4923">
+<createdBy>msimm</createdBy>
+<createdTime>2017-03-29 20:29:47 UTC</createdTime>
+<generatorID>F1CA6FC2-742F-A5F6-A175-385FE0BF51EB</generatorID>
+<ownerDesignName>proyectoija.v2</ownerDesignName>
+<engineerTo>
+<item key="98590784-3D23-B2BB-8B87-52C6D9EA195F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>EDE59239-7EE9-A2F9-B400-D87269FCD358</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>9</dataTypeSize>
+<ownDataTypeParameters>9,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="DD6F7648-0A58-1C8B-CB04-4722B84BE91F" name="Viaje PK">
+<createdBy>7fprog02</createdBy>
+<createdTime>2017-03-29 17:39:13 UTC</createdTime>
+<ownerDesignName>proyectoija.v2</ownerDesignName>
+<engineerTo>
+<item key="98590784-3D23-B2BB-8B87-52C6D9EA195F" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>32EDF8E0-8796-26C4-D567-068ADC59FEAA</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,135 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="E531F999-2930-1358-8129-353AFB2D2792" name="Centro Trabajo">
+<createdBy>7fprog02</createdBy>
+<createdTime>2017-03-29 17:22:23 UTC</createdTime>
+<ownerDesignName>proyectoija.v2</ownerDesignName>
+<engineerTo>
+<item key="98590784-3D23-B2BB-8B87-52C6D9EA195F" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cod_centro" id="5788BB64-839E-A402-98E1-6858BDB6F1D2">
+<createdBy>7fprog02</createdBy>
+<createdTime>2017-03-29 17:22:34 UTC</createdTime>
+<ownerDesignName>proyectoija.v2</ownerDesignName>
+<engineerTo>
+<item key="98590784-3D23-B2BB-8B87-52C6D9EA195F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>4</dataTypeSize>
+<ownDataTypeParameters>4,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nombre_centro" id="0BF3C060-231A-6ED8-840F-86354A143535">
+<createdBy>7fprog02</createdBy>
+<createdTime>2017-03-29 17:22:34 UTC</createdTime>
+<ownerDesignName>proyectoija.v2</ownerDesignName>
+<engineerTo>
+<item key="98590784-3D23-B2BB-8B87-52C6D9EA195F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25</dataTypeSize>
+<ownDataTypeParameters>25,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="calle_centro" id="4D16D3CC-5AC5-E88E-E6F3-22FB8820B6BD">
+<createdBy>7fprog02</createdBy>
+<createdTime>2017-03-29 17:22:34 UTC</createdTime>
+<ownerDesignName>proyectoija.v2</ownerDesignName>
+<engineerTo>
+<item key="98590784-3D23-B2BB-8B87-52C6D9EA195F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25</dataTypeSize>
+<ownDataTypeParameters>25,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="numero_centro" id="8887D2B0-AB36-1426-D073-46A5CD9FE72E">
+<createdBy>7fprog02</createdBy>
+<createdTime>2017-03-29 17:22:34 UTC</createdTime>
+<ownerDesignName>proyectoija.v2</ownerDesignName>
+<engineerTo>
+<item key="98590784-3D23-B2BB-8B87-52C6D9EA195F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="codigo_postal_centro" id="2911ED3B-3865-A01B-DB30-7708AC74E0D7">
+<createdBy>7fprog02</createdBy>
+<createdTime>2017-03-29 17:22:34 UTC</createdTime>
+<ownerDesignName>proyectoija.v2</ownerDesignName>
+<engineerTo>
+<item key="98590784-3D23-B2BB-8B87-52C6D9EA195F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ciudad_centro" id="927E1220-31C5-285A-C467-A3456DE05E97">
+<createdBy>7fprog02</createdBy>
+<createdTime>2017-03-29 17:22:35 UTC</createdTime>
+<ownerDesignName>proyectoija.v2</ownerDesignName>
+<engineerTo>
+<item key="98590784-3D23-B2BB-8B87-52C6D9EA195F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25</dataTypeSize>
+<ownDataTypeParameters>25,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="provincia_centro" id="9E464ED0-0EEF-CF0F-16F2-6727081154E0">
+<createdBy>7fprog02</createdBy>
+<createdTime>2017-03-29 17:22:35 UTC</createdTime>
+<ownerDesignName>proyectoija.v2</ownerDesignName>
+<engineerTo>
+<item key="98590784-3D23-B2BB-8B87-52C6D9EA195F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25</dataTypeSize>
+<ownDataTypeParameters>25,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="telefono_centro" id="54170362-0723-C7DC-FBF3-180CE79DC606">
+<createdBy>7fprog02</createdBy>
+<createdTime>2017-03-29 17:22:35 UTC</createdTime>
+<ownerDesignName>proyectoija.v2</ownerDesignName>
+<engineerTo>
+<item key="98590784-3D23-B2BB-8B87-52C6D9EA195F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="A5788D68-A99A-F538-0EA6-62DBB9F639DB" name="Centro Trabajo PK">
+<createdBy>7fprog02</createdBy>
+<createdTime>2017-03-29 17:23:34 UTC</createdTime>
+<ownerDesignName>proyectoija.v2</ownerDesignName>
+<engineerTo>
+<item key="98590784-3D23-B2BB-8B87-52C6D9EA195F" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>5788BB64-839E-A402-98E1-6858BDB6F1D2</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
