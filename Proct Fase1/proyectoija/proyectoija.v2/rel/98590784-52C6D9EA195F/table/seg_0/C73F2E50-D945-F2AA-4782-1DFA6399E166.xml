@@ -1,0 +1,249 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C73F2E50-D945-F2AA-4782-1DFA6399E166" name="Trabajador">
+<createdBy>msimm</createdBy>
+<createdTime>2017-03-30 16:39:12 UTC</createdTime>
+<generatorID>2B8307B5-64C2-FF84-24C0-50BA1D92E7D5</generatorID>
+<ownerDesignName>proyectoija.v2</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="dni_trabajador" id="26675C5D-DB52-27B7-D2D3-DEE7E976FAD5">
+<createdBy>msimm</createdBy>
+<createdTime>2017-03-30 16:39:12 UTC</createdTime>
+<generatorID>9D53F034-6C45-8014-F0B0-3A7F5AAF6621</generatorID>
+<ownerDesignName>proyectoija.v2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>9</dataTypeSize>
+<ownDataTypeParameters>9,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombre_trabajador" id="234A3BF6-E9EB-019C-F02B-D81800E1159D">
+<createdBy>msimm</createdBy>
+<createdTime>2017-03-30 16:39:12 UTC</createdTime>
+<generatorID>09AB7AC0-84A0-17AD-3B3E-729D143EACC4</generatorID>
+<ownerDesignName>proyectoija.v2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25</dataTypeSize>
+<ownDataTypeParameters>25,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="apellido1_trabajador" id="AD3114D7-E19D-9340-91CB-E53AD73EBB70">
+<createdBy>msimm</createdBy>
+<createdTime>2017-03-30 16:39:12 UTC</createdTime>
+<generatorID>DED0AE22-D148-F3E4-361E-532A88201B3D</generatorID>
+<ownerDesignName>proyectoija.v2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25</dataTypeSize>
+<ownDataTypeParameters>25,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="apellido2_trabajador" id="522CE75C-21A7-930B-B8A4-0941D29D4892">
+<createdBy>msimm</createdBy>
+<createdTime>2017-03-30 17:09:11 UTC</createdTime>
+<generatorID>1C08201C-37EB-782A-D88A-C0CB004E598C</generatorID>
+<ownerDesignName>proyectoija.v2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25</dataTypeSize>
+<ownDataTypeParameters>25,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="calle_trabajador" id="BA12B63E-2E31-68CD-75E2-9546788758D1">
+<createdBy>msimm</createdBy>
+<createdTime>2017-03-30 16:39:12 UTC</createdTime>
+<generatorID>8E5DE5B3-67B7-FA33-781F-AC4E0EB98F58</generatorID>
+<ownerDesignName>proyectoija.v2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25</dataTypeSize>
+<ownDataTypeParameters>25,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="portal_trabajador" id="995A3D09-0940-4B87-AEC4-31959AD7DC82">
+<createdBy>msimm</createdBy>
+<createdTime>2017-03-30 16:39:12 UTC</createdTime>
+<generatorID>5C8486E5-B3FD-94FD-F8A7-6FFDFF4CD6D9</generatorID>
+<ownerDesignName>proyectoija.v2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="piso_trabajador" id="EC32C371-896B-6DD4-290C-A8D872D57D47">
+<createdBy>msimm</createdBy>
+<createdTime>2017-03-30 16:39:12 UTC</createdTime>
+<generatorID>6A42EC2F-9636-CFE5-245F-E9A6F30FCEA9</generatorID>
+<ownerDesignName>proyectoija.v2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="mano_trabajador" id="D529B321-429E-C295-01D3-C49020BC36F8">
+<createdBy>msimm</createdBy>
+<createdTime>2017-03-30 16:39:12 UTC</createdTime>
+<generatorID>D236803B-4527-4674-FA08-7C990491F32F</generatorID>
+<ownerDesignName>proyectoija.v2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>5</dataTypeSize>
+<ownDataTypeParameters>5,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="telefono_personal_trabajador" id="B1D142A5-E5E6-5217-6301-B67CEFB0A9B1">
+<createdBy>msimm</createdBy>
+<createdTime>2017-03-30 16:39:12 UTC</createdTime>
+<generatorID>0EE59ADD-6CC8-BC2D-D833-CE1F3CE794A2</generatorID>
+<ownerDesignName>proyectoija.v2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="telefono_empresa_trabajador" id="74EC8AEF-F05C-FE32-DD6F-F3877B983485">
+<createdBy>msimm</createdBy>
+<createdTime>2017-03-30 16:39:12 UTC</createdTime>
+<generatorID>17913619-7FD2-B770-A317-98106194FDD5</generatorID>
+<ownerDesignName>proyectoija.v2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="salario_trabajador" id="43236436-B784-9EE8-2F83-69F37DF1D2AC">
+<createdBy>msimm</createdBy>
+<createdTime>2017-03-30 16:39:12 UTC</createdTime>
+<generatorID>0C89741D-AE09-5597-EDC1-323BAF04F585</generatorID>
+<ownerDesignName>proyectoija.v2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT020</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,6,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fecha_nacimiento_trabajador" id="E336CD14-35E4-6817-A07A-CAC9DF318474">
+<createdBy>msimm</createdBy>
+<createdTime>2017-03-30 16:39:12 UTC</createdTime>
+<generatorID>515CEF2A-3138-AD48-C272-8845A194FB9C</generatorID>
+<ownerDesignName>proyectoija.v2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="usuario" id="9A2A0F63-B24E-7CE3-0261-C5A76588DE3B">
+<createdBy>msimm</createdBy>
+<createdTime>2017-03-30 16:39:12 UTC</createdTime>
+<generatorID>F34AEC14-6C1B-4221-1900-0FECAF75C7FB</generatorID>
+<ownerDesignName>proyectoija.v2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25</dataTypeSize>
+<ownDataTypeParameters>25,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="contraseña" id="60E4335C-9441-7423-4DE3-579938725972">
+<createdBy>msimm</createdBy>
+<createdTime>2017-03-30 16:39:12 UTC</createdTime>
+<generatorID>EACD4B44-7C22-3AC6-CB60-E2F9EF0C4E56</generatorID>
+<ownerDesignName>proyectoija.v2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25</dataTypeSize>
+<ownDataTypeParameters>25,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Centro_Trabajo_cod_centro" id="9929BAA3-95D7-BAFE-9D41-B003932B3FD7">
+<createdBy>msimm</createdBy>
+<createdTime>2017-03-30 16:39:12 UTC</createdTime>
+<generatorID>B7F5CEFE-95D7-705C-35A9-7A66F296B9CF</generatorID>
+<ownerDesignName>proyectoija.v2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>4</dataTypeSize>
+<ownDataTypeParameters>4,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="EB8AB0D1-7830-3D6B-9FDB-FD233EBC62E8" referredColumn="378F3056-F2E6-4EE6-1522-A4FB32FEA35A"/>
+</associations>
+</Column>
+<Column name="Categoria_codigo_categoria" id="30778508-B39A-6BB8-B8BB-A3FB4590CAAD">
+<createdBy>msimm</createdBy>
+<createdTime>2017-03-30 16:39:12 UTC</createdTime>
+<generatorID>6D235278-C373-6066-8F5B-2EA867F3573C</generatorID>
+<ownerDesignName>proyectoija.v2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>4</dataTypeSize>
+<ownDataTypeParameters>4,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4F14CC24-6D8F-677A-6D15-CAF65759B6C8" referredColumn="EED43042-A743-2FA0-CEE6-4CB820299C36"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="0D121EAB-3473-FE80-1852-F70116C83F54" name="Trabajador_PK">
+<createdBy>msimm</createdBy>
+<createdTime>2017-03-30 16:39:12 UTC</createdTime>
+<generatorID>2D14CCF8-70C7-753C-8686-0B9A051FBA92</generatorID>
+<ownerDesignName>proyectoija.v2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="26675C5D-DB52-27B7-D2D3-DEE7E976FAD5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="899DCFE9-1344-BCE7-2708-B07B4E4461F0" name="Trabajador_Centro_Trabajo_FK">
+<createdBy>msimm</createdBy>
+<createdTime>2017-03-30 16:39:12 UTC</createdTime>
+<generatorID>9FB2A30E-2013-7149-278C-E5180258C635</generatorID>
+<ownerDesignName>proyectoija.v2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9929BAA3-95D7-BAFE-9D41-B003932B3FD7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9142858A-F372-E321-92DC-97CA46A6DFBE" name="Trabajador_Categoria_FK">
+<createdBy>msimm</createdBy>
+<createdTime>2017-03-30 16:39:12 UTC</createdTime>
+<generatorID>45A06011-23DD-588C-9800-67280B8015E2</generatorID>
+<ownerDesignName>proyectoija.v2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="30778508-B39A-6BB8-B8BB-A3FB4590CAAD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,193 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="5214A580-3F31-A245-2EB0-A3CA1965014D" name="Viaje">
+<createdBy>msimm</createdBy>
+<createdTime>2017-03-30 16:39:12 UTC</createdTime>
+<generatorID>34265004-8B02-44C9-39E8-E715C6F8521F</generatorID>
+<ownerDesignName>proyectoija.v2</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="codigo_viaje" id="A9C13B5C-B758-7B76-4FDD-79C6C3E1EFA4">
+<createdBy>msimm</createdBy>
+<createdTime>2017-03-30 16:39:12 UTC</createdTime>
+<generatorID>32EDF8E0-8796-26C4-D567-068ADC59FEAA</generatorID>
+<ownerDesignName>proyectoija.v2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>4</dataTypeSize>
+<ownDataTypeParameters>4,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="hora_inicio_viaje" id="CBDADFA8-2731-0E6D-9784-FEF26426FD9B">
+<createdBy>msimm</createdBy>
+<createdTime>2017-03-30 16:39:12 UTC</createdTime>
+<generatorID>E45F89A8-D197-1B9C-9FEF-C7A4B570C8DE</generatorID>
+<ownerDesignName>proyectoija.v2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="hora_fin_viaje" id="A4699D46-C3F9-DCDD-A4EB-4462ACE8A8CE">
+<createdBy>msimm</createdBy>
+<createdTime>2017-03-30 16:39:12 UTC</createdTime>
+<generatorID>F7D1DA09-5CA2-45F2-F09F-0BC7554240C5</generatorID>
+<ownerDesignName>proyectoija.v2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="km_inicio_viaje" id="8C3E6009-DEA1-6FE8-534A-6EB28177B605">
+<createdBy>msimm</createdBy>
+<createdTime>2017-03-30 16:39:12 UTC</createdTime>
+<generatorID>E5915743-54FE-776C-41F4-0317501A6473</generatorID>
+<ownerDesignName>proyectoija.v2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="km_fin_viaje" id="54157334-6053-A70E-58C9-F5BDF363EC80">
+<createdBy>msimm</createdBy>
+<createdTime>2017-03-30 16:39:12 UTC</createdTime>
+<generatorID>991ADAAF-3214-A45D-C047-E3DBAD20294D</generatorID>
+<ownerDesignName>proyectoija.v2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="gastos_gasolina__viaje" id="72A11369-0F2F-C4B7-081B-40DE21EEDB37">
+<createdBy>msimm</createdBy>
+<createdTime>2017-03-30 16:39:12 UTC</createdTime>
+<generatorID>02F8807F-62DB-AC45-2EC6-559881489FFF</generatorID>
+<ownerDesignName>proyectoija.v2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT020</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,6,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="gastos_autopistas_viaje" id="18C6D44B-3599-3291-C9EB-75C0A68DDE0F">
+<createdBy>msimm</createdBy>
+<createdTime>2017-03-30 16:39:12 UTC</createdTime>
+<generatorID>A796DCDB-A395-9639-3745-A857337153FD</generatorID>
+<ownerDesignName>proyectoija.v2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT020</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,6,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="gastos_dietas_viaje" id="FD3A5266-576C-40B6-E3E7-164E0BBD00CD">
+<createdBy>msimm</createdBy>
+<createdTime>2017-03-30 16:39:12 UTC</createdTime>
+<generatorID>AFEEF9D8-4464-AEDE-5E73-6C1E951B92CF</generatorID>
+<ownerDesignName>proyectoija.v2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT020</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,6,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="gastos_viaje" id="BAF2EAD9-02B1-71C2-793D-D9284D5CB071">
+<createdBy>msimm</createdBy>
+<createdTime>2017-03-30 16:39:12 UTC</createdTime>
+<generatorID>01E82F7B-ED27-009A-9A52-281A0FDB0AF5</generatorID>
+<ownerDesignName>proyectoija.v2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT020</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,6,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Parte_codigo_parte" id="7FA1990C-8568-141F-2B4F-CCCAE69A1C8A">
+<createdBy>msimm</createdBy>
+<createdTime>2017-03-30 16:39:12 UTC</createdTime>
+<generatorID>3B666A5D-DB29-5A03-F729-6FF128AB3435</generatorID>
+<ownerDesignName>proyectoija.v2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>4</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="896E0CDB-DCCC-E06B-A25B-03C6B6041C54" referredColumn="9E63E9FF-7B66-516E-5F0D-F335FC603D94"/>
+</associations>
+</Column>
+<Column name="Vehiculo_matricula_vehiculo" id="2BE8B448-D1FF-EC39-E889-501AF89E7958">
+<createdBy>msimm</createdBy>
+<createdTime>2017-03-30 16:39:12 UTC</createdTime>
+<generatorID>17CF3AB9-AAA1-CF5E-54F3-A9373F7A4923</generatorID>
+<ownerDesignName>proyectoija.v2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>9</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="EA6B80CE-C1BB-0A55-A5E3-83F67B528CDC" referredColumn="ADFD28E9-8D23-6D00-F845-B8F33C860F92"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E4CC3BD3-D16B-7716-F03C-D5D1453530D1" name="Viaje_PK">
+<createdBy>msimm</createdBy>
+<createdTime>2017-03-30 16:39:12 UTC</createdTime>
+<generatorID>DD6F7648-0A58-1C8B-CB04-4722B84BE91F</generatorID>
+<ownerDesignName>proyectoija.v2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A9C13B5C-B758-7B76-4FDD-79C6C3E1EFA4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F6BBD216-619A-FC98-0082-B54106A5059B" name="Viaje_Parte_FK">
+<createdBy>msimm</createdBy>
+<createdTime>2017-03-30 16:39:12 UTC</createdTime>
+<generatorID>0A950CA0-00F9-312A-B706-267C6AF6DA77</generatorID>
+<ownerDesignName>proyectoija.v2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7FA1990C-8568-141F-2B4F-CCCAE69A1C8A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D4AB3048-E347-087A-61BB-36170016B7B3" name="Viaje_Vehiculo_FK">
+<createdBy>msimm</createdBy>
+<createdTime>2017-03-30 16:39:12 UTC</createdTime>
+<generatorID>F1CA6FC2-742F-A5F6-A175-385FE0BF51EB</generatorID>
+<ownerDesignName>proyectoija.v2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2BE8B448-D1FF-EC39-E889-501AF89E7958"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

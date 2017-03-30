@@ -1,0 +1,22 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="tra_par" directorySegmentName="seg_0" id="95E9DF3B-31FE-DBBA-4BAE-9FE307F8CADB">
+<createdBy>7fprog02</createdBy>
+<createdTime>2017-03-29 17:46:50 UTC</createdTime>
+<ownerDesignName>proyectoija.v2</ownerDesignName>
+<engineerTo>
+<item key="98590784-3D23-B2BB-8B87-52C6D9EA195F" value="true"/>
+</engineerTo>
+<sourcePk>2D14CCF8-70C7-753C-8686-0B9A051FBA92</sourcePk>
+<targetPk>DCD74351-84D5-3859-ED38-B6A2C8F472F2</targetPk>
+<identifying>false</identifying>
+<nameOnSource>trabajador</nameOnSource>
+<nameOnTarget>parte</nameOnTarget>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>2B8307B5-64C2-FF84-24C0-50BA1D92E7D5</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>EF2F554F-2255-EA1C-7294-28489C62DF5B</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

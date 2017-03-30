@@ -1,0 +1,128 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E592635E-6BEA-AEF0-906C-6C2FAE7B500D" name="Parte">
+<createdBy>msimm</createdBy>
+<createdTime>2017-03-30 16:39:12 UTC</createdTime>
+<generatorID>EF2F554F-2255-EA1C-7294-28489C62DF5B</generatorID>
+<ownerDesignName>proyectoija.v2</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="codigo_parte" id="9E63E9FF-7B66-516E-5F0D-F335FC603D94">
+<createdBy>msimm</createdBy>
+<createdTime>2017-03-30 16:39:12 UTC</createdTime>
+<generatorID>CA8A359F-929F-61E0-2C55-C4F0F130F927</generatorID>
+<ownerDesignName>proyectoija.v2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>4</dataTypeSize>
+<ownDataTypeParameters>4,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="incidencias_parte" id="AAD3EF0A-F2A1-D0EA-A9F8-69F5D5FC4669">
+<createdBy>msimm</createdBy>
+<createdTime>2017-03-30 16:39:12 UTC</createdTime>
+<generatorID>2A88F9FB-60C1-9E15-60C4-1AF58D46598E</generatorID>
+<ownerDesignName>proyectoija.v2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="albaran_parte" id="7303B4E3-4DC7-B2E6-95B0-E1141AE9DD63">
+<createdBy>msimm</createdBy>
+<createdTime>2017-03-30 16:39:12 UTC</createdTime>
+<generatorID>7D875AE2-9AAD-248C-49CB-E649D39A641D</generatorID>
+<ownerDesignName>proyectoija.v2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>6</dataTypeSize>
+<ownDataTypeParameters>6,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Trabajador_dni_trabajador" id="78A818E1-925A-A339-8F02-17E83DDC990A">
+<createdBy>msimm</createdBy>
+<createdTime>2017-03-30 16:39:12 UTC</createdTime>
+<generatorID>A31DDAD8-4CD2-0A3A-FADD-6896DA7B94EE</generatorID>
+<ownerDesignName>proyectoija.v2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>9</dataTypeSize>
+<ownDataTypeParameters>9,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="BC16C194-7228-8499-EF6E-B9F2EB1B10FB" referredColumn="26675C5D-DB52-27B7-D2D3-DEE7E976FAD5"/>
+</associations>
+</Column>
+<Column name="fecha_parte" id="F87C00BE-26BF-ABAF-8D7A-33E5EBBF3C50">
+<createdBy>msimm</createdBy>
+<createdTime>2017-03-30 16:39:12 UTC</createdTime>
+<generatorID>DB47CAF6-3C71-CD37-FCD5-2442A7F58628</generatorID>
+<ownerDesignName>proyectoija.v2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="estado_parte" id="A0AC6872-CF5C-BE6E-CE92-2DA22B766E64">
+<createdBy>msimm</createdBy>
+<createdTime>2017-03-30 16:39:12 UTC</createdTime>
+<generatorID>F1CEE08C-4DD1-4CF8-E2EC-A0AA7DC24765</generatorID>
+<ownerDesignName>proyectoija.v2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="total_horas_parte" id="54ED65E9-348A-AD43-7CBA-8800814B4647">
+<createdBy>msimm</createdBy>
+<createdTime>2017-03-30 16:39:12 UTC</createdTime>
+<generatorID>0D489EA1-F887-2E1F-4B33-821B2643ADFB</generatorID>
+<ownerDesignName>proyectoija.v2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT020</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,2,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="49157F84-764A-B633-1A08-7CA1CF8BA67E" name="Parte_PK">
+<createdBy>msimm</createdBy>
+<createdTime>2017-03-30 16:39:12 UTC</createdTime>
+<generatorID>DCD74351-84D5-3859-ED38-B6A2C8F472F2</generatorID>
+<ownerDesignName>proyectoija.v2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9E63E9FF-7B66-516E-5F0D-F335FC603D94"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B607D51A-C8B5-2523-4C35-F5B7AD8171AE" name="Parte_Trabajador_FK">
+<createdBy>msimm</createdBy>
+<createdTime>2017-03-30 16:39:12 UTC</createdTime>
+<generatorID>95E9DF3B-31FE-DBBA-4BAE-9FE307F8CADB</generatorID>
+<ownerDesignName>proyectoija.v2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="78A818E1-925A-A339-8F02-17E83DDC990A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
