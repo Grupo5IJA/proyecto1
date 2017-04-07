@@ -1,0 +1,113 @@
+CREATE TABLE Avisos
+  (
+    codigo_aviso              INTEGER NOT NULL ,
+    texto                     VARCHAR2 (255) NOT NULL ,
+    us_emisor                 VARCHAR2 (25) NOT NULL ,
+    Trabajador_dni_trabajador VARCHAR2 (9) NOT NULL
+  ) ;
+  ALTER TABLE Avisos ADD CONSTRAINT Avisos_PK PRIMARY KEY ( codigo_aviso ) ;
+  
+  CREATE TABLE Categoria
+  (
+    codigo_categoria INTEGER NOT NULL ,
+    nombre_categoria VARCHAR2 (25) NOT NULL
+  ) ;
+  ALTER TABLE Categoria ADD CONSTRAINT Categoria_PK PRIMARY KEY ( codigo_categoria ) ;
+  
+  CREATE TABLE Centro_Trabajo
+  (
+    cod_centro           INTEGER NOT NULL ,
+    nombre_centro        VARCHAR2 (25) NOT NULL ,
+    calle_centro         VARCHAR2 (25) NOT NULL ,
+    numero_centro        INTEGER NOT NULL ,
+    codigo_postal_centro INTEGER NOT NULL ,
+    ciudad_centro        VARCHAR2 (25) NOT NULL ,
+    provincia_centro     VARCHAR2 (25) NOT NULL ,
+    telefono_centro      VARCHAR2 (20) NOT NULL
+  ) ;
+  
+  ALTER TABLE Centro_Trabajo ADD CONSTRAINT Centro_Trabajo_PK PRIMARY KEY ( cod_centro ) ;
+  
+  CREATE TABLE Parte
+  (
+    codigo_parte              INTEGER NOT NULL ,
+    incidencias_parte         VARCHAR2 (255) ,
+    albaran_parte             VARCHAR2 (6) NOT NULL ,
+    Trabajador_dni_trabajador VARCHAR2 (9) NOT NULL ,
+    fecha_parte               DATE NOT NULL ,
+    estado_parte              CHAR (1) ,
+    total_horas_parte         NUMBER ,
+    km_inicio_parte           INTEGER NOT NULL ,
+    km_fin_parte              INTEGER NOT NULL ,
+    Trabajador_usuario        VARCHAR2(25) NOT NULL ,
+    dni_trabajador VARCHAR2 (9) NOT NULL
+  ) ;
+  ALTER TABLE Parte ADD CONSTRAINT parte_km_ck CHECK (km_inicio_parte<km_fin_parte) ;
+ALTER TABLE Parte ADD CONSTRAINT parte_estado_ck CHECK (estado_parte IN('A','C','V')) ;
+ALTER TABLE Parte ADD CONSTRAINT Parte_PK PRIMARY KEY ( codigo_parte ) ;
+ALTER TABLE Parte ADD CONSTRAINT Parte_albaran_parte_UN UNIQUE ( albaran_parte ) ;
+  
+  CREATE TABLE Trabajador
+  (
+    dni_trabajador               VARCHAR2 (9) NOT NULL ,
+    nombre_trabajador            VARCHAR2 (25) NOT NULL ,
+    apellido1_trabajador         VARCHAR2 (25) NOT NULL ,
+    apellido2_trabajador         VARCHAR2 (25) NOT NULL ,
+    calle_trabajador             VARCHAR2 (25) NOT NULL ,
+    portal_trabajador            INTEGER NOT NULL ,
+    piso_trabajador              INTEGER NOT NULL ,
+    mano_trabajador              VARCHAR2 (5) NOT NULL ,
+    telefono_personal_trabajador VARCHAR2 (20) ,
+    telefono_empresa_trabajador  VARCHAR2 (20) NOT NULL ,
+    salario_trabajador           NUMBER ,
+    fecha_nacimiento_trabajador  DATE ,
+    usuario                      VARCHAR2 (25) NOT NULL ,
+    contraseña                   VARCHAR2 (25) NOT NULL ,
+    Centro_Trabajo_cod_centro    INTEGER NOT NULL ,
+    Categoria_codigo_categoria   INTEGER NOT NULL
+  ) ;
+  
+  ALTER TABLE Trabajador ADD CONSTRAINT Trabajador_PK PRIMARY KEY ( dni_trabajador ) ;
+ALTER TABLE Trabajador ADD CONSTRAINT Trabajador_usuario_UN UNIQUE ( usuario ) ;
+
+
+
+
+CREATE TABLE Vehiculo
+  (
+    matricula_vehiculo VARCHAR2 (9) NOT NULL ,
+    marca_vehiculo     VARCHAR2 (40) NOT NULL ,
+    modelo_vehiculo    VARCHAR2 (40) NOT NULL
+  ) ;
+  
+ALTER TABLE Vehiculo ADD CONSTRAINT Vehiculo_PK PRIMARY KEY ( matricula_vehiculo ) ;
+  
+  CREATE TABLE Viaje
+  (
+    codigo_viaje                INTEGER NOT NULL ,
+    hora_inicio_viaje           TIMESTAMP NOT NULL ,
+    hora_fin_viaje              TIMESTAMP NOT NULL ,
+    gastos_gasolina_viaje       NUMBER ,
+    gastos_autopistas_viaje     NUMBER ,
+    gastos_dietas_viaje         NUMBER ,
+    gastos_viaje                NUMBER ,
+    Parte_codigo_parte          INTEGER NOT NULL ,
+    Vehiculo_matricula_vehiculo VARCHAR2 (9) ,
+    Parte_albaran_parte         VARCHAR2 (6) NOT NULL
+  ) ;
+  
+  ALTER TABLE Viaje ADD CONSTRAINT viaje_horas_ck CHECK (hora_inicio_viaje<hora_fin_viaje) ;
+ALTER TABLE Viaje ADD CONSTRAINT Viaje_PK PRIMARY KEY ( codigo_viaje ) ;
+
+
+ALTER TABLE Avisos ADD CONSTRAINT Avisos_Trabajador_FK FOREIGN KEY ( Trabajador_dni_trabajador ) REFERENCES Trabajador ( dni_trabajador ) ;
+
+ALTER TABLE Parte ADD CONSTRAINT Parte_Trabajador_FK FOREIGN KEY ( Trabajador_dni_trabajador ) REFERENCES Trabajador ( dni_trabajador ) ;
+
+ALTER TABLE Trabajador ADD CONSTRAINT Trabajador_Categoria_FK FOREIGN KEY ( Categoria_codigo_categoria ) REFERENCES Categoria ( codigo_categoria ) ;
+
+ALTER TABLE Trabajador ADD CONSTRAINT Trabajador_Centro_Trabajo_FK FOREIGN KEY ( Centro_Trabajo_cod_centro ) REFERENCES Centro_Trabajo ( cod_centro ) ;
+
+ALTER TABLE Viaje ADD CONSTRAINT Viaje_Parte_FK FOREIGN KEY ( Parte_codigo_parte ) REFERENCES Parte ( codigo_parte ) ;
+
+ALTER TABLE Viaje ADD CONSTRAINT Viaje_Vehiculo_FK FOREIGN KEY ( Vehiculo_matricula_vehiculo ) REFERENCES Vehiculo ( matricula_vehiculo ) ;

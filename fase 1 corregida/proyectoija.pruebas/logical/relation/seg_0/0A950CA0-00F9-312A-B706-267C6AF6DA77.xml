@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="par_via" directorySegmentName="seg_0" id="0A950CA0-00F9-312A-B706-267C6AF6DA77">
+<createdBy>msimm</createdBy>
+<createdTime>2017-03-29 20:22:14 UTC</createdTime>
+<ownerDesignName>proyectoija.pruebas</ownerDesignName>
+<engineerTo>
+<item key="98590784-3D23-B2BB-8B87-52C6D9EA195F" value="true"/>
+</engineerTo>
+<sourcePk>DCD74351-84D5-3859-ED38-B6A2C8F472F2</sourcePk>
+<identifying>false</identifying>
+<nameOnSource>consta_de</nameOnSource>
+<nameOnTarget>pertenece</nameOnTarget>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>EF2F554F-2255-EA1C-7294-28489C62DF5B</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>34265004-8B02-44C9-39E8-E715C6F8521F</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

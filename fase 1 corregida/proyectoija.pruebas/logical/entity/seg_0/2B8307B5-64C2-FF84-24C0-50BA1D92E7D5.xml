@@ -1,0 +1,260 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="2B8307B5-64C2-FF84-24C0-50BA1D92E7D5" name="Trabajador">
+<createdBy>7fprog02</createdBy>
+<createdTime>2017-03-29 17:25:29 UTC</createdTime>
+<ownerDesignName>proyectoija.pruebas</ownerDesignName>
+<engineerTo>
+<item key="98590784-3D23-B2BB-8B87-52C6D9EA195F" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="dni_trabajador" id="9D53F034-6C45-8014-F0B0-3A7F5AAF6621">
+<createdBy>7fprog02</createdBy>
+<createdTime>2017-03-29 17:25:35 UTC</createdTime>
+<ownerDesignName>proyectoija.pruebas</ownerDesignName>
+<engineerTo>
+<item key="98590784-3D23-B2BB-8B87-52C6D9EA195F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>9</dataTypeSize>
+<ownDataTypeParameters>9,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nombre_trabajador" id="09AB7AC0-84A0-17AD-3B3E-729D143EACC4">
+<createdBy>7fprog02</createdBy>
+<createdTime>2017-03-29 17:25:36 UTC</createdTime>
+<ownerDesignName>proyectoija.pruebas</ownerDesignName>
+<engineerTo>
+<item key="98590784-3D23-B2BB-8B87-52C6D9EA195F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25</dataTypeSize>
+<ownDataTypeParameters>25,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="apellido1_trabajador" id="DED0AE22-D148-F3E4-361E-532A88201B3D">
+<createdBy>7fprog02</createdBy>
+<createdTime>2017-03-29 17:25:36 UTC</createdTime>
+<ownerDesignName>proyectoija.pruebas</ownerDesignName>
+<engineerTo>
+<item key="98590784-3D23-B2BB-8B87-52C6D9EA195F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25</dataTypeSize>
+<ownDataTypeParameters>25,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="apellido2_trabajador" id="1C08201C-37EB-782A-D88A-C0CB004E598C">
+<createdBy>msimm</createdBy>
+<createdTime>2017-03-30 17:06:42 UTC</createdTime>
+<ownerDesignName>proyectoija.pruebas</ownerDesignName>
+<engineerTo>
+<item key="98590784-3D23-B2BB-8B87-52C6D9EA195F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25</dataTypeSize>
+<ownDataTypeParameters>25,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="calle_trabajador" id="8E5DE5B3-67B7-FA33-781F-AC4E0EB98F58">
+<createdBy>7fprog02</createdBy>
+<createdTime>2017-03-29 17:25:36 UTC</createdTime>
+<ownerDesignName>proyectoija.pruebas</ownerDesignName>
+<engineerTo>
+<item key="98590784-3D23-B2BB-8B87-52C6D9EA195F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25</dataTypeSize>
+<ownDataTypeParameters>25,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="portal_trabajador" id="5C8486E5-B3FD-94FD-F8A7-6FFDFF4CD6D9">
+<createdBy>7fprog02</createdBy>
+<createdTime>2017-03-29 17:25:36 UTC</createdTime>
+<ownerDesignName>proyectoija.pruebas</ownerDesignName>
+<engineerTo>
+<item key="98590784-3D23-B2BB-8B87-52C6D9EA195F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="piso_trabajador" id="6A42EC2F-9636-CFE5-245F-E9A6F30FCEA9">
+<createdBy>7fprog02</createdBy>
+<createdTime>2017-03-29 17:25:42 UTC</createdTime>
+<ownerDesignName>proyectoija.pruebas</ownerDesignName>
+<engineerTo>
+<item key="98590784-3D23-B2BB-8B87-52C6D9EA195F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="mano_trabajador" id="D236803B-4527-4674-FA08-7C990491F32F">
+<createdBy>7fprog02</createdBy>
+<createdTime>2017-03-29 17:25:43 UTC</createdTime>
+<ownerDesignName>proyectoija.pruebas</ownerDesignName>
+<engineerTo>
+<item key="98590784-3D23-B2BB-8B87-52C6D9EA195F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>5</dataTypeSize>
+<ownDataTypeParameters>5,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="telefono_personal_trabajador" id="0EE59ADD-6CC8-BC2D-D833-CE1F3CE794A2">
+<createdBy>7fprog02</createdBy>
+<createdTime>2017-03-29 17:25:43 UTC</createdTime>
+<ownerDesignName>proyectoija.pruebas</ownerDesignName>
+<engineerTo>
+<item key="98590784-3D23-B2BB-8B87-52C6D9EA195F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="telefono_empresa_trabajador" id="17913619-7FD2-B770-A317-98106194FDD5">
+<createdBy>7fprog02</createdBy>
+<createdTime>2017-03-29 17:25:43 UTC</createdTime>
+<ownerDesignName>proyectoija.pruebas</ownerDesignName>
+<engineerTo>
+<item key="98590784-3D23-B2BB-8B87-52C6D9EA195F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="salario_trabajador" id="0C89741D-AE09-5597-EDC1-323BAF04F585">
+<createdBy>7fprog02</createdBy>
+<createdTime>2017-03-29 17:25:47 UTC</createdTime>
+<ownerDesignName>proyectoija.pruebas</ownerDesignName>
+<engineerTo>
+<item key="98590784-3D23-B2BB-8B87-52C6D9EA195F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT020</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,6,2</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fecha_nacimiento_trabajador" id="515CEF2A-3138-AD48-C272-8845A194FB9C">
+<createdBy>7fprog02</createdBy>
+<createdTime>2017-03-29 17:25:47 UTC</createdTime>
+<ownerDesignName>proyectoija.pruebas</ownerDesignName>
+<engineerTo>
+<item key="98590784-3D23-B2BB-8B87-52C6D9EA195F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="usuario" id="F34AEC14-6C1B-4221-1900-0FECAF75C7FB">
+<createdBy>7fprog02</createdBy>
+<createdTime>2017-03-29 17:25:47 UTC</createdTime>
+<ownerDesignName>proyectoija.pruebas</ownerDesignName>
+<engineerTo>
+<item key="98590784-3D23-B2BB-8B87-52C6D9EA195F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25</dataTypeSize>
+<ownDataTypeParameters>25,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="contraseña" id="EACD4B44-7C22-3AC6-CB60-E2F9EF0C4E56">
+<createdBy>7fprog02</createdBy>
+<createdTime>2017-03-29 17:25:47 UTC</createdTime>
+<ownerDesignName>proyectoija.pruebas</ownerDesignName>
+<engineerTo>
+<item key="98590784-3D23-B2BB-8B87-52C6D9EA195F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25</dataTypeSize>
+<ownDataTypeParameters>25,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cod_centro" id="B7F5CEFE-95D7-705C-35A9-7A66F296B9CF">
+<createdBy>7fprog02</createdBy>
+<createdTime>2017-03-29 17:43:12 UTC</createdTime>
+<generatorID>9FB2A30E-2013-7149-278C-E5180258C635</generatorID>
+<ownerDesignName>proyectoija.pruebas</ownerDesignName>
+<engineerTo>
+<item key="98590784-3D23-B2BB-8B87-52C6D9EA195F" value="true"/>
+</engineerTo>
+<referedAttribute>5788BB64-839E-A402-98E1-6858BDB6F1D2</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<dataTypeSize>4</dataTypeSize>
+<ownDataTypeParameters>4,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="codigo_categoria" id="6D235278-C373-6066-8F5B-2EA867F3573C">
+<createdBy>msimm</createdBy>
+<createdTime>2017-03-30 12:25:03 UTC</createdTime>
+<generatorID>45A06011-23DD-588C-9800-67280B8015E2</generatorID>
+<ownerDesignName>proyectoija.pruebas</ownerDesignName>
+<engineerTo>
+<item key="98590784-3D23-B2BB-8B87-52C6D9EA195F" value="true"/>
+</engineerTo>
+<referedAttribute>F4EDECFD-AB63-BAF9-C5AB-68121F6CE16F</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<dataTypeSize>4</dataTypeSize>
+<ownDataTypeParameters>4,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="2D14CCF8-70C7-753C-8686-0B9A051FBA92" name="Trabajador PK">
+<createdBy>7fprog02</createdBy>
+<createdTime>2017-03-29 17:27:41 UTC</createdTime>
+<ownerDesignName>proyectoija.pruebas</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="98590784-3D23-B2BB-8B87-52C6D9EA195F" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>9D53F034-6C45-8014-F0B0-3A7F5AAF6621</attributeRef>
+</usedAttributes>
+</identifier>
+<identifier id="8FB4B0CA-A37E-EFC3-5E14-DE3E2EE229F6" name="usuario_key">
+<createdBy>msimm</createdBy>
+<createdTime>2017-04-02 12:28:10 UTC</createdTime>
+<ownerDesignName>proyectoija.pruebas</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="98590784-3D23-B2BB-8B87-52C6D9EA195F" value="false"/>
+</engineerTo>
+<newElementsIDs>F34AEC14-6C1B-4221-1900-0FECAF75C7FB</newElementsIDs>
+<usedAttributes>
+<attributeRef>F34AEC14-6C1B-4221-1900-0FECAF75C7FB</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

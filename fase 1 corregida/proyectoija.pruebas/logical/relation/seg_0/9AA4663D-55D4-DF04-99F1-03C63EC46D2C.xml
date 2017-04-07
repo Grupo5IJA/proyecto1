@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="tra_avi" directorySegmentName="seg_0" id="9AA4663D-55D4-DF04-99F1-03C63EC46D2C">
+<createdBy>msimm</createdBy>
+<createdTime>2017-04-03 17:10:09 UTC</createdTime>
+<ownerDesignName>proyectoija.pruebas</ownerDesignName>
+<engineerTo>
+<item key="98590784-3D23-B2BB-8B87-52C6D9EA195F" value="true"/>
+</engineerTo>
+<sourcePk>2D14CCF8-70C7-753C-8686-0B9A051FBA92</sourcePk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>2B8307B5-64C2-FF84-24C0-50BA1D92E7D5</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>0E6F5D18-41E9-DD99-08C8-677BFA55BAB9</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

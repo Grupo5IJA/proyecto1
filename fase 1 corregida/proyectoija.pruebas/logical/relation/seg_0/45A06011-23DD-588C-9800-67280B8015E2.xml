@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="tra_cat" directorySegmentName="seg_0" id="45A06011-23DD-588C-9800-67280B8015E2">
+<createdBy>7fprog02</createdBy>
+<createdTime>2017-03-29 17:45:50 UTC</createdTime>
+<ownerDesignName>proyectoija.pruebas</ownerDesignName>
+<engineerTo>
+<item key="98590784-3D23-B2BB-8B87-52C6D9EA195F" value="true"/>
+</engineerTo>
+<sourcePk>4DC1BB1C-00CB-4F3D-09B4-C86888A5B2AD</sourcePk>
+<identifying>false</identifying>
+<nameOnSource>tiene</nameOnSource>
+<nameOnTarget>pertenece</nameOnTarget>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>D76814E1-4057-65C5-CF7D-304208EB8291</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>2B8307B5-64C2-FF84-24C0-50BA1D92E7D5</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>
