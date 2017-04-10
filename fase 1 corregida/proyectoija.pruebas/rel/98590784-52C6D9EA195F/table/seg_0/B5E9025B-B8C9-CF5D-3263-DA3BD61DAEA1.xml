@@ -1,0 +1,62 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B5E9025B-B8C9-CF5D-3263-DA3BD61DAEA1" name="Vehiculo">
+<createdBy>msimm</createdBy>
+<createdTime>2017-03-30 16:39:12 UTC</createdTime>
+<generatorID>A8F30A98-E417-C2D5-25F7-FF1FAF962D4E</generatorID>
+<ownerDesignName>proyectoija.pruebas</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="matricula_vehiculo" id="ADFD28E9-8D23-6D00-F845-B8F33C860F92">
+<createdBy>msimm</createdBy>
+<createdTime>2017-03-30 16:39:12 UTC</createdTime>
+<generatorID>EDE59239-7EE9-A2F9-B400-D87269FCD358</generatorID>
+<ownerDesignName>proyectoija.pruebas</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>9</dataTypeSize>
+<ownDataTypeParameters>9,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="marca_vehiculo" id="5E166E1F-202C-B386-5C9C-A2AACCB6BCEE">
+<createdBy>msimm</createdBy>
+<createdTime>2017-03-30 16:39:12 UTC</createdTime>
+<generatorID>E55E8520-3B5F-63EC-CD85-8AA43FBBB8BA</generatorID>
+<ownerDesignName>proyectoija.pruebas</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40</dataTypeSize>
+<ownDataTypeParameters>40,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="modelo_vehiculo" id="BAF6E859-FDD4-829C-A799-D09E685BB81B">
+<createdBy>msimm</createdBy>
+<createdTime>2017-03-30 16:39:12 UTC</createdTime>
+<generatorID>BEAFC186-513A-7FCF-778C-953556DDC118</generatorID>
+<ownerDesignName>proyectoija.pruebas</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40</dataTypeSize>
+<ownDataTypeParameters>40,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="8D0EE582-0264-907D-DBF5-09636DEC0699" name="Vehiculo_PK">
+<createdBy>msimm</createdBy>
+<createdTime>2017-03-30 16:39:12 UTC</createdTime>
+<generatorID>3ECE0FAE-D40A-07A0-811C-F7607131AA1C</generatorID>
+<ownerDesignName>proyectoija.pruebas</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="ADFD28E9-8D23-6D00-F845-B8F33C860F92"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

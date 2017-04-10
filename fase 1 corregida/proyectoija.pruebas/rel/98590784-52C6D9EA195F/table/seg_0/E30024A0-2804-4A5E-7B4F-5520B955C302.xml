@@ -1,0 +1,119 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E30024A0-2804-4A5E-7B4F-5520B955C302" name="Centro_Trabajo">
+<createdBy>msimm</createdBy>
+<createdTime>2017-03-30 16:39:12 UTC</createdTime>
+<generatorID>E531F999-2930-1358-8129-353AFB2D2792</generatorID>
+<ownerDesignName>proyectoija.pruebas</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cod_centro" id="378F3056-F2E6-4EE6-1522-A4FB32FEA35A">
+<createdBy>msimm</createdBy>
+<createdTime>2017-03-30 16:39:12 UTC</createdTime>
+<generatorID>5788BB64-839E-A402-98E1-6858BDB6F1D2</generatorID>
+<ownerDesignName>proyectoija.pruebas</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombre_centro" id="6DE141A7-336D-5733-9865-A1EBA152B1B4">
+<createdBy>msimm</createdBy>
+<createdTime>2017-03-30 16:39:12 UTC</createdTime>
+<generatorID>0BF3C060-231A-6ED8-840F-86354A143535</generatorID>
+<ownerDesignName>proyectoija.pruebas</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25</dataTypeSize>
+<ownDataTypeParameters>25,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="calle_centro" id="D09343CE-2615-6AB9-4195-41954088B0E3">
+<createdBy>msimm</createdBy>
+<createdTime>2017-03-30 16:39:12 UTC</createdTime>
+<generatorID>4D16D3CC-5AC5-E88E-E6F3-22FB8820B6BD</generatorID>
+<ownerDesignName>proyectoija.pruebas</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25</dataTypeSize>
+<ownDataTypeParameters>25,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="numero_centro" id="C93613E7-F61B-FEBF-7794-B46C7441903F">
+<createdBy>msimm</createdBy>
+<createdTime>2017-03-30 16:39:12 UTC</createdTime>
+<generatorID>8887D2B0-AB36-1426-D073-46A5CD9FE72E</generatorID>
+<ownerDesignName>proyectoija.pruebas</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="codigo_postal_centro" id="E88D7FB1-3369-1554-1051-98FD3AF48050">
+<createdBy>msimm</createdBy>
+<createdTime>2017-03-30 16:39:12 UTC</createdTime>
+<generatorID>2911ED3B-3865-A01B-DB30-7708AC74E0D7</generatorID>
+<ownerDesignName>proyectoija.pruebas</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ciudad_centro" id="E0F5C429-358B-1FA4-0612-FE724A8131E8">
+<createdBy>msimm</createdBy>
+<createdTime>2017-03-30 16:39:12 UTC</createdTime>
+<generatorID>927E1220-31C5-285A-C467-A3456DE05E97</generatorID>
+<ownerDesignName>proyectoija.pruebas</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25</dataTypeSize>
+<ownDataTypeParameters>25,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="provincia_centro" id="123588BC-4D93-1A81-C2DC-7E8DF70FC849">
+<createdBy>msimm</createdBy>
+<createdTime>2017-03-30 16:39:12 UTC</createdTime>
+<generatorID>9E464ED0-0EEF-CF0F-16F2-6727081154E0</generatorID>
+<ownerDesignName>proyectoija.pruebas</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25</dataTypeSize>
+<ownDataTypeParameters>25,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="telefono_centro" id="44BC3DB5-9D34-B811-4256-C78727DE7E43">
+<createdBy>msimm</createdBy>
+<createdTime>2017-03-30 16:39:12 UTC</createdTime>
+<generatorID>54170362-0723-C7DC-FBF3-180CE79DC606</generatorID>
+<ownerDesignName>proyectoija.pruebas</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="803B0F41-B570-A96C-0A41-6A094EF44C58" name="Centro_Trabajo_PK">
+<createdBy>msimm</createdBy>
+<createdTime>2017-03-30 16:39:12 UTC</createdTime>
+<generatorID>A5788D68-A99A-F538-0EA6-62DBB9F639DB</generatorID>
+<ownerDesignName>proyectoija.pruebas</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="378F3056-F2E6-4EE6-1522-A4FB32FEA35A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
