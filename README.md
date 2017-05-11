@@ -1,10 +1,10 @@
-﻿El proyecto final con todo corregido de las anteriores fases se encuentra en la carpeta Entrega, la cual se va dividiendo en otras carpetas donde esta separado por cada una de las asignaturas que han conformado el proyecto donde tambien estn las capetas del Manual y la Documentacion.
+﻿El proyecto final con todo corregido de las anteriores fases se encuentra en el Entrega.zip,el cual se va dividiendo en otras carpetas donde esta separado por cada una de las asignaturas que han conformado el proyecto donde tambien estan las capetas del Manual y la Documentacion.
 
 Asi pues, en Entornos de Desarrollo se encontraran dos carpetas donde estaran el Diagrama de Clases, y los Diagramas de Secuencia respectivamente.
 
 En Programacion se encontrara todo lo relacionado con Java, lo cual ha sido desarrolado en NetBeans.
 
-Y en Base de Datos se encontraran todo lo relacionado con las bases de datos, tanto el MER-Relacional, como los scripts de creacion, procedimientos y disparadores.
+Y en Base de Datos se encontraran todo lo relacionado con las bases de datos, como los scripts de creacion, procedimientos y disparadores.
 
 En Documentacion se encontrara el JAVADOC.
 
