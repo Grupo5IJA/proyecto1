@@ -1,4 +1,4 @@
-﻿El proyecto final con todo corregido de las anteriores fases se encuentra en el Entrega.zip,el cual se va dividiendo en otras carpetas donde esta separado por cada una de las asignaturas que han conformado el proyecto donde tambien estan las capetas del Manual y la Documentacion.
+﻿El proyecto final con todo corregido de las anteriores fases se encuentra en el Entregav1.zip,el cual se va dividiendo en otras carpetas donde esta separado por cada una de las asignaturas que han conformado el proyecto donde tambien estan las capetas del Manual y la Documentacion.
 
 Asi pues, en Entornos de Desarrollo se encontraran dos carpetas donde estaran el Diagrama de Clases, y los Diagramas de Secuencia respectivamente.
 
